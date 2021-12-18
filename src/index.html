@@ -1,0 +1,43 @@
+<main id="home">
+  <header id="header">
+    <nav id="nav-bar">
+      <ul>
+        <li><a class="nav-link" href="#home"><button>home</button></a></li>
+        <li><a class="nav-link" href="#about"><button>about</button></a></li>
+        <li><a class="nav-link" href="#contact"><button>contact</button></a></li>
+      </ul>
+    </nav>
+    <img id="header-img" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fimages.freecreatives.com%2Fwp-content%2Fuploads%2F2015%2F04%2FSH00020.png&f=1&nofb=1" alt="company-logo">
+  </header>
+  <article id="about">
+    <h2>About</h2>
+    <div class="flex-container">
+      <div class="flex-left">
+        <p>Oscorp is a fictional company from the Spiderverse. It's founder turned out to be the Green Goblin that for some reason became Spiderman's adversary. This is actually just some filler text that I'm inventing and I'm not really fact checking anything of it because it's not really that relevant. So this is not a very professional 'about' page, but it's just to test the nav-bar, making sure it tags along when the page scrolls.</p>
+        <p>This here text is just to illustrate the flex display</p>
+      </div>
+      <div class="flex-right">
+        <p>Here's a video about one of our services.</p>
+        <video id="video" controls>
+          <source src="https://www.oscorp-industries.com/uploads/b/23908610-435923018902740057/oscorp_industries__252.mp4" type="video/mp4" alt="cross-species-genetics">
+        </video>
+      </div>
+    </div>
+  </article>
+  <article id="contact">
+    <h2>Contact</h2>
+    <form id="form" action="https://www.freecodecamp.com/email-submit" method="POST">
+      <label for="name" id="name-label">Name</label></br>
+    <input type="text" id="name" name="name" placeholder="Name" required>
+    </br>
+  <label for="email" id="email-label">E-mail</label></br>
+<input type="email" id="email" name="email" placeholder="email@example.com" required>
+</br>
+<label for="comment">Your comment</label></br>
+<textarea id="comment" cols="50" rows="5"></textarea>
+</br>
+<input type="submit" id="submit">
+</form>
+</article>
+</main>
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
